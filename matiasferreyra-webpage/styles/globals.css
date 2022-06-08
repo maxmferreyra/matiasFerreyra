@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Rubik:ital,wght@0,300;1,300&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+
+
+header {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  font-weight: lighter;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+header h2 {
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: lighter;
+  background-color: rgb(0, 0, 0);
+  width: 150px;
+  color: white;
+}
+
+.mainSection {
+  margin: 15px 0px 10px 50px;
+  width: 20%;
+}
+
+.mainSection  h5 {
+  font-family: 'Rubik', sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 13px;
+  margin: 10px 0px;
+}
+
+.personalProyects {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+}
+
+.colaborationProyects {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+}
+
+.mainSection a {
+  font-family: 'Inter', sans-serif;
+  font-weight: lighter;
+  font-size: 13px;
+  margin: 7px 0px 7px 15px;
+  color: inherit;
+  text-decoration: none;
+  
+}
+
+.mainSection a:hover {
+  background-color: rgba(70, 69, 69, 0.696);
+  color: white;
+
+}
+
+.mainChildren {
+  width: 70%;
+  margin: 30px 50px 10px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+main {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.info-proyect {
+  font-family: 'Inter', sans-serif;
+  margin: 40px;
+  height: 250px;
+ 
+}
+
+.info-proyect h5 {
+  margin: 40px 0px 20px 0px;
+  font-size: 18px;
+}
+
+.info-proyect ul {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-style: italic;
+}
+
+.info-proyect ul li{
+  margin: 5px 0px;
+}
+
+.info-proyect p {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.info-proyect a {
+  font-size: 14px;
+  background-color: yellow;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+nav {
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 0px 20px 30px;
+
+}
+
+nav a,
+.backHome {
+  color: black;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  margin: 0 5px;
+}
+
+.container-backHome {
+  margin-bottom: 20px;
+}
+
+.backHome {
+  margin-left: 30px;
+}
+
+.backHome:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+nav a:hover {
+  background-color: rgba(70, 69, 69, 0.696);
+  color: white;
+}
+
+
+.container{
+  background-color: white;
+  width: 800px;
+  height: 400px;
+
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul.slider{
+  position: relative;
+  width: 800px;
+  height: 400px;
+}
+
+ul.slider li {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  opacity: 0;
+  transition: opacity .5s;
+
+}
+
+ul.slider li img{
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+ul.slider li:first-child {
+    opacity: 1; /*Mostramos el primer <li>*/
+}
+
+ul.slider li:target {
+    opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+}
+
+.menu{
+  text-align: center;
+  margin: 20px;
+}
+
+.menu li{
+  display: inline-block;
+  text-align: center;
+  margin: 0px 2px;
+}
+
+.menu li a{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  background-color: rgb(107, 106, 106);
+  width: 25px;
+  height: 10px;
+  font-size: 20px;
+}
+
+.menu li a:hover {
+  background-color: rgb(49, 49, 49);
+}
+
+
+
+
+
